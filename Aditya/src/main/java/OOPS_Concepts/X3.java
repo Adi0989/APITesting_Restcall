@@ -1,0 +1,19 @@
+package OOPS_Concepts;
+
+public class X3 extends BMW{
+
+	static String model = "X3";
+	
+	public static void main(String args[]) {
+		
+		BMW bmw = new BMW();
+		
+		System.out.println("Model is " +model);
+		System.out.println("Brand is " +name);
+		System.out.println("Behavious ");
+		
+		bmw.run();
+		
+	}
+	
+}
